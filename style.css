@@ -66,3 +66,42 @@ button {
     height: auto;
     background-color: #6b7280;
 }
+
+.info-section {
+    background-color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 800px;
+    margin: 80px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+
+}
+
+.card p {
+    font-size: 16px;
+    color: #1f2937
+}
